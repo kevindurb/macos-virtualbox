@@ -63,7 +63,7 @@ function welcome() {
 echo -ne "\n${highlight_color}Push-button installer of macOS on VirtualBox${default_color}
 
 This script installs only open-source software and unmodified Apple binaries,
-and requires about ${highlight_color}45GB${default_color} of available storage, of which 25GB are for temporary
+and requires about ${highlight_color}50GB${default_color} of available storage, of which 25GB are for temporary
 installation files that may be deleted when the script is finished.
 
 The script interacts with the virtual machine twice, ${highlight_color}please do not interact${default_color}
@@ -1115,7 +1115,7 @@ automatically, applying the EFI and NVRAM variables before booting macOS.
         ${highlight_color}Changing the EFI and NVRAM parameters after installation${default_color}
 The variables mentioned above may be edited and applied to an existing macOS
 virtual machine by executing the following command and copying the generated
-files to the macOS EFI partition:
+files to the macOS EFI System Partition:
 
     ${low_contrast_color}${0} "'\\'"${default_color}
 ${low_contrast_color}configure_vm create_nvram_files create_macos_installation_files_viso${default_color}
