@@ -1,0 +1,11 @@
+*.efi
+*.zip
+*.chunklist
+*.dmg
+*.vdi
+*.part*
+*.pkg
+*.plist
+*.viso
+*.bin
+*.nsh

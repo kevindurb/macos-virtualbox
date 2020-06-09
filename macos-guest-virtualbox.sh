@@ -1,4 +1,3 @@
-#!/bin/bash
 # Push-button installer of macOS on VirtualBox
 # (c) myspaghetti, licensed under GPL2.0 or higher
 # url: https://github.com/myspaghetti/macos-virtualbox
@@ -134,7 +133,7 @@ elif [[ "${SHELL}" =~ /zsh ]]; then
         fi
         echo "Exiting."
         exit
-    elif [[ ! ( "${ZSH_VERSION:0:1}" -ge 6 
+    elif [[ ! ( "${ZSH_VERSION:0:1}" -ge 6
              || "${ZSH_VERSION:0:3}" =~ 5\.[5-9]
              || "${ZSH_VERSION:0:4}" =~ 5\.[1-4][0-9] ) ]]; then
         echo "Please execute this script with zsh version 5.5 or higher."
